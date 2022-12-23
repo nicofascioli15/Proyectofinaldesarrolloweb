@@ -131,6 +131,10 @@ footer{
     border-radius: 10px;
 }
 
+.subTituloPaginaDatos select {
+    width: 100%;
+}
+
 .sectionPropiedades {
 
     display:flex;
