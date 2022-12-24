@@ -96,7 +96,11 @@ footer{
 }
 
 .redesSociales {
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.redesSociales a {
+    color: black;
 }
 
 /*HOJA 2 - PROPIEDADES*/
