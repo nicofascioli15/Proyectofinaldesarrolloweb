@@ -125,16 +125,14 @@ footer{
 .subTituloPaginaDatos {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 20px;
 }
 
 
 .subTituloPaginaDatos div select {
     border-radius: 10px;
-}
-
-.subTituloPaginaDatos select {
-    width: 100%;
+    width: 130px;
 }
 
 .sectionPropiedades {
