@@ -112,6 +112,10 @@ footer{
 
 }
 
+.margenPaginas {
+    margin: 15px;
+}
+
 .tituloPaginaDatos{
     margin: 30px 5px 30px 5px;
 }
