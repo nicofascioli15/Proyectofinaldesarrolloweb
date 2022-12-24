@@ -237,6 +237,39 @@ textarea {
 
 
 
+/*HOJA 4 - EQUIPO*/
+
+.equipo {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.equipo figure a img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+}
+
+.miembroEquipo span {
+    display: block;
+}
+
+.miembroEquipo .equipoNombre{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.miembroEquipo .equipoCargo {
+    color: gray;
+    font-weight: 500;
+}
+
 /* tablet */
 @media (min-width:768px){
 
