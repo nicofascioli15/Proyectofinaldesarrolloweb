@@ -313,6 +313,7 @@ textarea {
 
     .tituloPaginaDatos{
         margin: 20px;
+    
     }
 
     .sectionPropiedades {
@@ -334,7 +335,7 @@ textarea {
  
 }
 
-    .forTablet { 
+    .sectionTodasPropiedades{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
