@@ -335,6 +335,11 @@ textarea {
  
 }
 
+  .forTabletDesktop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .sectionTodasPropiedades{
         display: flex;
         flex-wrap: wrap;
@@ -397,6 +402,11 @@ textarea {
     .sectionPropiedades picture img:hover{
         opacity: 0.4;
         
+    }
+
+    .forTabletDesktop {
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
