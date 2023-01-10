@@ -466,6 +466,17 @@ textarea {
         display: none;
     }
 
+    /*  Contacto*/
+
+    .formContacto {
     
+        width: 50%;
+    }
+
+    .flexDesktopContacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
