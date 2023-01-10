@@ -6,6 +6,10 @@
 
 /*Reglas iguales*/
 
+.bgPage {
+    background-color: rgba(214, 214, 214, 0.65);
+}
+
 body a {
     text-decoration: none;
 }
@@ -478,5 +482,6 @@ textarea {
         justify-content: center;
         align-items: center;
     }
+
 
 }
