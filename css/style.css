@@ -430,18 +430,21 @@ textarea {
     .forTabletDesktop {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+        position: relative;
     }
 
     .sectionTodasPropiedades {
         grid-column:span 3;
+    
     }
 
     .onlyDesktop {
         display: flex;
         grid-column: span 2;
         align-items: flex-start;
-        position:sticky;
+    
     }
+
 
     
 
