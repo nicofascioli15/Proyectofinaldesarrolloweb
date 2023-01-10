@@ -419,6 +419,7 @@ textarea {
         flex-wrap: wrap;
         justify-content: center;
         width: 40%;
+        gap: 10px;
 
 
     }
@@ -429,12 +430,25 @@ textarea {
 
     .forTabletDesktop {
         display: grid;
+        gap: 10px;
+        justify-content: center;
         grid-template-columns: repeat(5, 1fr);
-        position: relative;
+    
     }
+
+    .favoritosPage{
+
+
+        display: flex;
+        justify-content: center;
+    
+
+    }
+
 
     .sectionTodasPropiedades {
         grid-column:span 3;
+
     
     }
 
