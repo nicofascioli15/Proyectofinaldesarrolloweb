@@ -295,6 +295,10 @@ textarea {
     font-weight: 900;
 }
 
+.onlyDesktop {
+    display: none;
+}
+
 
 /* tablet */
 @media (min-width:768px){
@@ -347,7 +351,7 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-       width: 100%;
+        width: 100%;
     }
 
     footer {
@@ -361,16 +365,22 @@ textarea {
         color: white;
     }
 
+    .onlyDesktop {
+        display: none;
+    }
+
 }
 
 /* Desktop */
 @media (min-width:1024px){
 
+   
+
     .vistaDesktop h1 {
         font-size: 70px;
     }
 
-   .vistaDesktop{
+    .vistaDesktop{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -406,20 +416,39 @@ textarea {
 
     .sectionPropiedades {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        width: 25%;
+        width: 40%;
 
 
-
+    }
     .sectionPropiedades picture img:hover{
         opacity: 0.4;
         
     }
 
     .forTabletDesktop {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
     }
+
+    .sectionTodasPropiedades {
+        grid-column:span 3;
+    }
+
+    .onlyDesktop {
+        display: flex;
+        grid-column: span 2;
+        align-items: flex-start;
+        position:sticky;
+    }
+
+    
+
+    .filtrosMobile {
+        display: none;
+    }
+
+    
 
 }
