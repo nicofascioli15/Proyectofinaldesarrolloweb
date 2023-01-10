@@ -31,6 +31,9 @@ button {
     align-items: center;
 }
 
+.navbar {
+    justify-content: center;
+}
 .navMobile img {
     width: 20%;
 }
@@ -319,7 +322,7 @@ textarea {
     .sectionPropiedades {
         display: flex;
         justify-content: center;
-        width: 45%;
+        width: 27%;
         height: auto;
         background-color: rgba(255, 255, 255, 0.632);
         padding: 20px;
@@ -344,6 +347,7 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+       width: 100%;
     }
 
     footer {
@@ -407,6 +411,7 @@ textarea {
     .forTabletDesktop {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
 }
