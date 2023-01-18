@@ -1,0 +1,247 @@
+
+
+/*HOJA 3 - CONTACTO*/
+
+textarea {
+    width: 100%;
+}
+
+.btnContacto {
+    justify-content: flex-end;
+}
+
+
+
+/*HOJA 4 - EQUIPO*/
+
+.equipo {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.equipo figure a img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+}
+
+.miembroEquipo span {
+    display: block;
+}
+
+.miembroEquipo .equipoNombre{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.miembroEquipo .equipoCargo {
+    color: gray;
+    font-weight: 500;
+}
+
+
+/*HOJA 5 - FAVORTIOS*/
+
+.sectionFavoritos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operacionColor {
+    color: red;
+    font-weight: 900;
+}
+
+.onlyDesktop {
+    display: none;
+}
+
+
+/* tablet */
+@media (min-width:768px){
+
+    /*Index tablet*/
+
+    
+
+    form {
+        width: 50%;
+    }
+
+    /*Propiedades Tablet*/
+
+    .navBar {
+        display: flex;
+    }
+
+
+    .tituloPaginaDatos{
+        margin: 20px;
+    
+    }
+
+    .sectionPropiedades {
+        display: flex;
+        justify-content: center;
+        width: 45%;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.632);
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin: 15px;
+    }
+
+    .sectionPropiedades .ventaAlquiler {
+    top: 40px;
+    right: 215px;
+    padding: 10px;
+ 
+}
+
+  .forTabletDesktop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sectionTodasPropiedades{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    footer {
+        justify-content: space-around;
+    }
+
+    .filtrosMobile {
+        position: fixed;
+        bottom: 70px;
+        left: 340px;
+        color: white;
+    }
+
+    .onlyDesktop {
+        display: none;
+    }
+
+}
+
+/* Desktop */
+@media (min-width:1024px){
+
+   
+
+    .vistaDesktop h1 {
+        font-size: 70px;
+    }
+
+    .vistaDesktop{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+        
+    }
+
+    .burgerMenu {
+        display: none;
+    }
+
+    .navBarDesktop {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        justify-content: flex-end;
+    }
+
+    .navBarDesktop li a {
+        color: black;
+    }
+
+
+    .flexDesktop {
+        display: flex;
+        align-items: center;
+    }
+
+    .sectionPropiedades picture:hover {
+    background-color: black;        
+    border-radius: 10px;
+    transition: 0.3s;
+    }
+
+    .sectionPropiedades {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 40%;
+        gap: 10px;
+
+
+    }
+    .sectionPropiedades picture img:hover{
+        opacity: 0.4;
+        
+    }
+
+    .forTabletDesktop {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        grid-template-columns: repeat(5, 1fr);
+    
+    }
+
+    .favoritosPage{
+
+
+        display: flex;
+        justify-content: center;
+    
+
+    }
+
+
+    .sectionTodasPropiedades {
+        grid-column:span 3;
+
+    
+    }
+
+    .onlyDesktop {
+        display: flex;
+        grid-column: span 2;
+        align-items: flex-start;
+    
+    }
+
+
+    
+
+    .filtrosMobile {
+        display: none;
+    }
+
+    /*  Contacto*/
+
+    .formContacto {
+    
+        width: 50%;
+    }
+
+    .flexDesktopContacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}

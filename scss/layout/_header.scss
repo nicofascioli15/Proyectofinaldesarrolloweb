@@ -1,0 +1,24 @@
+.bodyIndex {
+    background-image: url("../assets/img/bg1\(mobile\).jpg");
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+.navBarDesktop {
+    display: none;
+}
+
+.navMobileFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    justify-content: center;
+}
+.navMobile {
+    img {
+        width: 25%;
+    }
+}

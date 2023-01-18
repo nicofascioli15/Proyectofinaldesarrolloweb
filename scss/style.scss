@@ -1,0 +1,30 @@
+@import "../scss/base/reset";
+@import "../scss/layout/header";
+@import "../scss/layout/main-index";
+@import "../scss/layout/main-propiedades";
+@import "../scss/layout/footer";
+
+
+/*Reglas iguales*/
+
+.bgPage {
+    background-color: rgba(214, 214, 214, 0.65);
+}
+
+body {
+    a{
+
+    
+    text-decoration: none;
+}}
+
+button {
+    border: none;
+    border-radius: 10px;
+}
+
+.bodyIndex {
+    background-image: url("../assets/img/bg1\(mobile\).jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}

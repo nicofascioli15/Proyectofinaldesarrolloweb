@@ -1,487 +1,173 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/*Reglas iguales*/
-
-.bgPage {
-    background-color: rgba(214, 214, 214, 0.65);
-}
-
-body a {
-    text-decoration: none;
-}
-
-button {
-    border: none;
-    border-radius: 10px;
-}
-
-/* body index*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 .bodyIndex {
-    background-image: url("../assets/img/bg1\(mobile\).jpg");
-    background-size:cover;
-    background-attachment: fixed;
-
-}
-
-/* Header*/
-.navMobileFlex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar {
-    justify-content: center;
-}
-.navMobile img {
-    width: 20%;
-}
-
-/* main*/
-
-main h1 {
-    text-align: center;
-    margin-top: 20%;
-    font-size: 40px;
-}
+  background-image: url("../assets/img/bg1(mobile).jpg");
+  background-size: cover;
+  background-attachment: fixed; }
 
 .navBarDesktop {
-    display: none;
-}
+  display: none; }
 
+.navMobileFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.navbar {
+  justify-content: center; }
+
+.navMobile img {
+  width: 25%; }
+
+main h1 {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 70px;
+  font-family: Rowdies; }
 
 /* form de busqueda*/
-
 .formIgual {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 form {
-    width: 70%;
-    background-color: black;
-    margin: 15% 0 15% 0;
-    color: white;
-    border-radius: 10px;
-    padding: 25px;
-}
-
-form label, input, select {
+  width: 70%;
+  background-color: black;
+  margin: 15% 0 15% 0;
+  color: white;
+  border-radius: 10px;
+  padding: 25px; }
+  form input {
+    width: 100%; }
+  form select {
     width: 100%;
-    margin: 10px 0 10px 0;
-}
+    margin: 10px 0 10px 0; }
 
 .btnForm {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-}
+  display: flex;
+  justify-content: space-between;
+  margin: 10px; }
 
 .btnForm button {
-    background-color: white;
-    padding: 10px 20px 10px 20px;
-    margin-top: 30px;
-    border-radius: 5px;
-}
-
-.btnForm button a  {
-    color: black;
-}
-
-
-/*Footer*/
-
-
-footer{
-    background-color: rgba(211, 211, 211, 0.805) ;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    align-items: center;
-}
-
-.redesSociales {
-    font-size: 22px;
-}
-
-.redesSociales a {
-    color: black;
-}
-
-/*HOJA 2 - PROPIEDADES*/
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  border-radius: 5px; }
+  .btnForm button a {
+    color: black; }
 
 .bodyPropiedades {
-    background-image: url("../assets/img/bg2\(mobile\).jpg");
-    background-size:cover;
-    background-attachment: fixed;
-
-}
+  background-image: url("../assets/img/bg2(mobile).jpg");
+  background-size: cover;
+  background-attachment: fixed; }
 
 .margenPaginas {
-    margin: 15px;
-}
+  margin: 15px; }
 
-.tituloPaginaDatos{
-    margin: 30px 5px 30px 5px;
-}
-
-
-.tituloPaginaDatos select {
-    width: 100px;
-   
-}
+.tituloPaginaDatos {
+  margin: 30px 5px 30px 5px; }
+  .tituloPaginaDatos select {
+    width: 100%; }
 
 .subTituloPaginaDatos {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-}
-
-
-.subTituloPaginaDatos div select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px; }
+  .subTituloPaginaDatos div select {
     border-radius: 10px;
-    width: 130px;
-}
+    width: 130px; }
 
 .sectionPropiedades {
-
-    display:flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.632);
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  position: relative; }
+  .sectionPropiedades picture img {
     width: 100%;
-    height: auto;
-    background-color: rgba(255, 255, 255, 0.632);
-    padding: 25px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.sectionPropiedades picture img {
-    width: 100%;   
     height: 250px;
-}
-
-
-.sectionPropiedades .ventaAlquiler {
+    object-fit: cover;
+    border-radius: 10px; }
+  .sectionPropiedades picture article {
+    margin-top: 20px; }
+  .sectionPropiedades .ventaAlquiler {
     background-color: green;
     position: absolute;
     color: white;
     font-size: 12px;
-    font-weight:800;
+    font-weight: 800;
     top: 40px;
     right: 270px;
     padding: 10px;
-    border-radius: 5px;
-}
-
-
-.sectionPropiedades picture img {
-    width: 100%;
-    object-fit:cover;
-    border-radius: 10px;
-}
-
-.sectionPropiedades article {
-    margin-top: 20px;
-
-}
+    border-radius: 5px; }
 
 .costoPropiedad {
-    display: flex;
-    justify-content: flex-end;
-}
+  display: flex;
+  justify-content: flex-end; }
 
 .parrafoDatosPropiedad {
-    text-align: justify;
-    margin: 10px 0 10px 0;
-}
+  text-align: justify;
+  margin: 10px 0 10px 0; }
 
 hr {
-    margin-top: 10px;
-    border: solid 1px black;
-}
+  margin-top: 10px;
+  border: solid 1px black; }
 
 .comodidades {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0 10px 0;
-}
-
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 10px 0; }
 
 .addFavoritos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.addFavoritos button a {
-    color: white;
-}
-
-.agregarAfavoritos {
-    color: black;
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black; }
+  .addFavoritos button a {
+    color: white; }
 
 .filtrosMobile {
-    background-color: black;
-    border-radius: 50%;
-    padding: 20px;
-    position: fixed;
-    bottom: 70px;
-    left: 150px;
-    color: white;
-}
-
-
-/*HOJA 3 - CONTACTO*/
-
-textarea {
-    width: 100%;
-}
-
-.btnContacto {
-    justify-content: flex-end;
-}
-
-
-
-/*HOJA 4 - EQUIPO*/
-
-.equipo {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.equipo figure a img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: block;
-}
-
-.miembroEquipo span {
-    display: block;
-}
-
-.miembroEquipo .equipoNombre{
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-}
-
-.miembroEquipo .equipoCargo {
-    color: gray;
-    font-weight: 500;
-}
-
-
-/*HOJA 5 - FAVORTIOS*/
-
-.sectionFavoritos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.operacionColor {
-    color: red;
-    font-weight: 900;
-}
-
-.onlyDesktop {
-    display: none;
-}
-
-
-/* tablet */
-@media (min-width:768px){
-
-    /*Index tablet*/
-
-    
-
-    form {
-        width: 50%;
-    }
-
-    /*Propiedades Tablet*/
-
-    .navBar {
-        display: flex;
-    }
-
-
-    .tituloPaginaDatos{
-        margin: 20px;
-    
-    }
-
-    .sectionPropiedades {
-        display: flex;
-        justify-content: center;
-        width: 45%;
-        height: auto;
-        background-color: rgba(255, 255, 255, 0.632);
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        margin: 15px;
-    }
-
-    .sectionPropiedades .ventaAlquiler {
-    top: 40px;
-    right: 215px;
-    padding: 10px;
- 
-}
-
-  .forTabletDesktop {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .sectionTodasPropiedades{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-    }
-
-    footer {
-        justify-content: space-around;
-    }
-
-    .filtrosMobile {
-        position: fixed;
-        bottom: 70px;
-        left: 340px;
-        color: white;
-    }
-
-    .onlyDesktop {
-        display: none;
-    }
-
-}
-
-/* Desktop */
-@media (min-width:1024px){
-
-   
-
-    .vistaDesktop h1 {
-        font-size: 70px;
-    }
-
-    .vistaDesktop{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-        
-    }
-
-    .burgerMenu {
-        display: none;
-    }
-
-    .navBarDesktop {
-        display: flex;
-        list-style: none;
-        gap: 20px;
-        justify-content: flex-end;
-    }
-
-    .navBarDesktop li a {
-        color: black;
-    }
-
-
-    .flexDesktop {
-        display: flex;
-        align-items: center;
-    }
-
-    .sectionPropiedades picture:hover {
-    background-color: black;        
-    border-radius: 10px;
-    transition: 0.3s;
-    }
-
-    .sectionPropiedades {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 40%;
-        gap: 10px;
-
-
-    }
-    .sectionPropiedades picture img:hover{
-        opacity: 0.4;
-        
-    }
-
-    .forTabletDesktop {
-        display: grid;
-        gap: 10px;
-        justify-content: center;
-        grid-template-columns: repeat(5, 1fr);
-    
-    }
-
-    .favoritosPage{
-
-
-        display: flex;
-        justify-content: center;
-    
-
-    }
-
-
-    .sectionTodasPropiedades {
-        grid-column:span 3;
-
-    
-    }
-
-    .onlyDesktop {
-        display: flex;
-        grid-column: span 2;
-        align-items: flex-start;
-    
-    }
-
-
-    
-
-    .filtrosMobile {
-        display: none;
-    }
-
-    /*  Contacto*/
-
-    .formContacto {
-    
-        width: 50%;
-    }
-
-    .flexDesktopContacto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-}
+  background-color: black;
+  border-radius: 50%;
+  padding: 20px;
+  position: fixed;
+  bottom: 70px;
+  left: 150px;
+  color: white; }
+
+footer {
+  background-color: rgba(211, 211, 211, 0.805);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center; }
+
+.redesSociales {
+  font-size: 22px; }
+  .redesSociales a {
+    color: black; }
+
+/*Reglas iguales*/
+.bgPage {
+  background-color: rgba(214, 214, 214, 0.65); }
+
+body a {
+  text-decoration: none; }
+
+button {
+  border: none;
+  border-radius: 10px; }
+
+.bodyIndex {
+  background-image: url("../assets/img/bg1(mobile).jpg");
+  background-size: cover;
+  background-attachment: fixed; }

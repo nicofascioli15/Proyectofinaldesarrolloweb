@@ -1,0 +1,112 @@
+.bodyPropiedades {
+    background-image: url("../assets/img/bg2\(mobile\).jpg");
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+.margenPaginas {
+    margin: 15px;
+}
+
+.tituloPaginaDatos{
+    margin: 30px 5px 30px 5px;
+    select{
+        width: 100%;
+    }
+}
+
+.subTituloPaginaDatos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+    div{
+        select{
+            border-radius: 10px;
+    width: 130px;
+        }
+    }
+}
+
+.sectionPropiedades {
+
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.632);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    picture {
+        img {
+            width: 100%;   
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        article{
+            margin-top: 20px;
+        }
+    }
+    .ventaAlquiler {
+        background-color: green;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight:800;
+    top: 40px;
+    right: 270px;
+    padding: 10px;
+    border-radius: 5px;
+    }
+}
+
+.costoPropiedad {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.parrafoDatosPropiedad {
+    text-align: justify;
+    margin: 10px 0 10px 0;
+}
+
+hr {
+    margin-top: 10px;
+    border: solid 1px black;
+}
+
+.comodidades {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+
+.addFavoritos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    button {
+        a {
+            color: white;
+        }
+    }
+}
+
+.filtrosMobile {
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+    position: fixed;
+    bottom: 70px;
+    left: 150px;
+    color: white;
+}
+
+
