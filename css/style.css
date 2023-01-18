@@ -1,12 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+button {
+  border: none; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
 .bodyIndex {
   background-image: url("../assets/img/bg1(mobile).jpg");
   background-size: cover;
   background-attachment: fixed; }
+
+.bgPage {
+  background-color: rgba(214, 214, 214, 0.65); }
 
 .navBarDesktop {
   display: none; }
@@ -22,11 +33,15 @@
 .navMobile img {
   width: 25%; }
 
+.bodyIndex {
+  background-image: url("../assets/img/bg1(mobile).jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
 main h1 {
   text-align: center;
-  margin-top: 20%;
-  font-size: 70px;
-  font-family: Rowdies; }
+  margin: 10%;
+  font-size: 70px; }
 
 /* form de busqueda*/
 .formIgual {
@@ -51,14 +66,14 @@ form {
   display: flex;
   justify-content: space-between;
   margin: 10px; }
+  .btnForm button {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
+    border-radius: 5px; }
 
-.btnForm button {
-  background-color: white;
-  padding: 10px 20px 10px 20px;
-  margin-top: 30px;
-  border-radius: 5px; }
-  .btnForm button a {
-    color: black; }
+body {
+  font-family: "'Cabin', sans-serif"; }
 
 .bodyPropiedades {
   background-image: url("../assets/img/bg2(mobile).jpg");
@@ -144,6 +159,49 @@ hr {
   left: 150px;
   color: white; }
 
+textarea {
+  width: 100%; }
+
+.btnContacto {
+  justify-content: flex-end; }
+
+.equipo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  text-align: center; }
+  .equipo figure a img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block; }
+
+.miembroEquipo span {
+  display: block; }
+
+.miembroEquipo .equipoNombre {
+  font-size: 20px;
+  font-weight: bold;
+  color: black; }
+
+.miembroEquipo .equipoCargo {
+  color: gray;
+  font-weight: 500; }
+
+.sectionFavoritos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.operacionColor {
+  color: red;
+  font-weight: 900; }
+
+.onlyDesktop {
+  display: none; }
+
 footer {
   background-color: rgba(211, 211, 211, 0.805);
   display: flex;
@@ -155,19 +213,3 @@ footer {
   font-size: 22px; }
   .redesSociales a {
     color: black; }
-
-/*Reglas iguales*/
-.bgPage {
-  background-color: rgba(214, 214, 214, 0.65); }
-
-body a {
-  text-decoration: none; }
-
-button {
-  border: none;
-  border-radius: 10px; }
-
-.bodyIndex {
-  background-image: url("../assets/img/bg1(mobile).jpg");
-  background-size: cover;
-  background-attachment: fixed; }

@@ -1,0 +1,14 @@
+.sectionFavoritos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operacionColor {
+    color: red;
+    font-weight: 900;
+}
+
+.onlyDesktop {
+    display: none;
+}

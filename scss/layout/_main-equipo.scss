@@ -1,0 +1,33 @@
+.equipo {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    text-align: center;
+    figure{
+        a{
+            img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                display: block;
+            }
+        }
+    }
+}
+
+.miembroEquipo{
+    span{
+        display: block;
+    }
+    .equipoNombre{
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+    }
+    .equipoCargo {
+        color: gray;
+        font-weight: 500;
+    }
+}
