@@ -1,0 +1,108 @@
+
+@media (min-width:1024px){
+
+
+    .vistaDesktop{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    h1 {
+        font-size: 70px;
+    }
+        
+    }
+
+    .burgerMenu {
+        display: none;
+    }
+
+    .navBarDesktop {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        justify-content: flex-end;
+        li{
+            a{
+                color: black;
+            }
+        }
+    }
+
+    .flexDesktop {
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .sectionPropiedades {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 40%;
+        gap: 10px;
+            picture:hover{
+                background-color: black;        
+                border-radius: 10px;
+                transition: 0.3s;
+                img:hover {
+                    opacity: 0.4s;
+                }
+            }
+
+        }
+
+
+    }
+
+    .forTabletDesktop {
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        grid-template-columns: repeat(5, 1fr);
+    
+    }
+
+    .favoritosPage{
+
+
+        display: flex;
+        justify-content: center;
+    
+
+    }
+
+
+    .sectionTodasPropiedades {
+        grid-column:span 3;
+
+    
+    }
+
+    .onlyDesktop {
+        display: flex;
+        grid-column: span 2;
+        align-items: flex-start;
+    
+    }
+
+
+    
+
+    .filtrosMobile {
+        display: none;
+    }
+
+    /*  Contacto*/
+
+    .formContacto {
+    
+        width: 50%;
+    }
+
+    .flexDesktopContacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
