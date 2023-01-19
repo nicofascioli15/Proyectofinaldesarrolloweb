@@ -1,6 +1,7 @@
 @import "./utilities/variable";
 @import "./base/typo";
 @import "../scss/base/reset";
+@import "../scss/layout/fondos";
 @import "./layout/reglas-iguales.scss";
 @import "./layout/header";
 @import "./layout/main-index";
@@ -9,7 +10,9 @@
 @import "./layout/main-equipo";
 @import "./layout/main-favoritos";
 @import "./layout/footer";
-@import "./layout//media/media-tablet";
+@import "./layout/media/media-tablet";
 @import "./layout/media/media-desktop";
+
+
 
 

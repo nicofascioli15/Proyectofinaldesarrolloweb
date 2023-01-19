@@ -1,6 +1,35 @@
 
 @media (min-width:1024px){
 
+    .bodyIndex {
+        background-image: url("../../../assets/img/bg1.jpg");
+        background-size:cover;
+        background-attachment: fixed;
+    }
+
+    .bodyPropiedades {
+        background-image: url("../../../assets/img/bg2.jpg");
+        background-size:cover;
+        background-attachment: fixed;
+    }
+
+    .bodyContacto {
+        background-image: url("../../../assets/img/bg3.jpg");
+        background-size:cover;
+        background-attachment: fixed;
+    }
+
+    .bodyEquipo {
+        background-image: url("../../../assets/img/bg4.jpg");
+        background-size:cover;
+        background-attachment: fixed;
+    }
+
+    .bodyFavoritos {
+        background-image: url("../../../assets/img/bg5.jpg");
+        background-size:cover;
+        background-attachment: fixed;
+    }
 
     .vistaDesktop{
     display: flex;
@@ -53,56 +82,37 @@
         }
 
 
-    }
-
+    
     .forTabletDesktop {
         display: grid;
         gap: 10px;
         justify-content: center;
-        grid-template-columns: repeat(5, 1fr);
-    
-    }
+        grid-template-columns: repeat(5, 1fr);}
 
     .favoritosPage{
 
-
         display: flex;
-        justify-content: center;
-    
-
-    }
-
+        justify-content: center;}
 
     .sectionTodasPropiedades {
-        grid-column:span 3;
-
-    
-    }
+        grid-column:span 3;}
 
     .onlyDesktop {
         display: flex;
         grid-column: span 2;
-        align-items: flex-start;
-    
-    }
-
-
-    
+        align-items: flex-start;}
 
     .filtrosMobile {
-        display: none;
-    }
-
-    /*  Contacto*/
+        display: none;}
 
     .formContacto {
     
-        width: 50%;
-    }
+        width: 50%;}
 
     .flexDesktopContacto {
         display: flex;
         justify-content: center;
-        align-items: center;
-    }
+ align-items: center;}
 
+
+}
