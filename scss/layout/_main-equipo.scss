@@ -1,7 +1,6 @@
 .equipo {
-    display:flex;
+    @include flex (row, center, center);
     flex-wrap: wrap;
-    justify-content: center;
     gap: 40px;
     margin-top: 20px;
     text-align: center;

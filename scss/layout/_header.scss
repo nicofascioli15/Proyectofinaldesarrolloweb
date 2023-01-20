@@ -12,9 +12,7 @@
     display: none;
 }
 .navMobileFlex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(row, center, center);
 }
 .navbar {
     justify-content: center;

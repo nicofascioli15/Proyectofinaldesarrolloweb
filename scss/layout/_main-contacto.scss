@@ -3,5 +3,5 @@ textarea {
     width: 100%;
 }
 .btnContacto {
-    justify-content: flex-end;
+    @include flex (row, flex-end,center);
 }

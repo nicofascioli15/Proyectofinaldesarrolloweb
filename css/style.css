@@ -47,7 +47,8 @@ a {
 
 .navMobileFlex {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center; }
 
 .navbar {
@@ -63,6 +64,7 @@ main h1 {
 
 .formIgual {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center; }
 
@@ -83,7 +85,9 @@ form {
 
 .btnForm {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin: 10px; }
   .btnForm button {
     background-color: white;
@@ -104,8 +108,9 @@ body {
 
 .subTituloPaginaDatos {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
   gap: 20px; }
   .subTituloPaginaDatos div select {
     border-radius: 10px;
@@ -114,6 +119,8 @@ body {
 .sectionPropiedades {
   display: flex;
   flex-direction: column;
+  justify-content: none;
+  align-items: none;
   width: 100%;
   height: auto;
   background-color: rgba(255, 255, 255, 0.632);
@@ -141,7 +148,9 @@ body {
 
 .costoPropiedad {
   display: flex;
-  justify-content: flex-end; }
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: none; }
 
 .parrafoDatosPropiedad {
   text-align: justify;
@@ -153,11 +162,14 @@ hr {
 
 .comodidades {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: none;
   margin: 10px 0 10px 0; }
 
 .addFavoritos {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: black; }
@@ -177,12 +189,17 @@ textarea {
   width: 100%; }
 
 .btnContacto {
-  justify-content: flex-end; }
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
 
 .equipo {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 40px;
   margin-top: 20px;
   text-align: center; }
@@ -206,6 +223,7 @@ textarea {
 
 .sectionFavoritos {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center; }
 
@@ -219,9 +237,10 @@ textarea {
 footer {
   background-color: rgba(211, 211, 211, 0.805);
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 20px;
-  align-items: center; }
+  align-items: center;
+  padding: 20px; }
 
 .redesSociales {
   font-size: 22px; }
@@ -339,7 +358,6 @@ footer {
   .flexDesktopContacto {
     display: flex;
     justify-content: center;
-    align-items: center; } }
-
-.navMobile img {
-  width: 20%; }
+    align-items: center; }
+  .navMobile a img {
+    width: 20%; } }

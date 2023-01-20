@@ -11,9 +11,8 @@
 }
 
 .subTituloPaginaDatos {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    @include flex (row,flex-start,center);
+
     gap: 20px;
 
     div{
@@ -25,8 +24,7 @@
 }
 
 .sectionPropiedades {
-    display:flex;
-    flex-direction: column;
+    @include flex (column,none,none);
     width: 100%;
     height: auto;
     background-color: rgba(255, 255, 255, 0.632);
@@ -59,8 +57,7 @@
 }
 
 .costoPropiedad {
-    display: flex;
-    justify-content: flex-end;
+    @include flex (row,flex-end,none);
 }
 
 .parrafoDatosPropiedad {
@@ -74,16 +71,13 @@ hr {
 }
 
 .comodidades {
-    display: flex;
-    justify-content: space-between;
+    @include flex (row,space-between,none);
     margin: 10px 0 10px 0;
 }
 
 
 .addFavoritos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex (row,space-between,center);
     color: black;
     button {
         a {

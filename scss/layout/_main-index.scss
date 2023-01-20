@@ -9,9 +9,7 @@ main {
 }
 
 .formIgual {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex (row,center,center);
 }
 
 form {
@@ -33,8 +31,7 @@ form {
 }
 
 .btnForm {
-    display: flex;
-    justify-content: space-between;
+    @include flex (row,space-between,center);
     margin: 10px;
     button {
         background-color: white;
