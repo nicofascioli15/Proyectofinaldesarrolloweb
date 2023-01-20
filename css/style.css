@@ -12,32 +12,35 @@ a {
   text-decoration: none; }
 
 .bodyIndex {
-  background-image: url("../assets/img/bg1(mobile).jpg");
+  background-image: url("../assets/img/bg1(mobile).png");
   background-size: cover;
   background-attachment: fixed; }
 
 .bodyPropiedades {
-  background-image: url("../assets/img/bg2(mobile).jpg");
+  background-image: url("../assets/img/bg2(mobile).png");
   background-size: cover;
   background-attachment: fixed; }
 
 .bodyContacto {
-  background-image: url("../assets/img/bg4(mobile).webp");
+  background-image: url("../assets/img/bg4(mobile).png");
   background-size: cover;
   background-attachment: fixed; }
 
 .bodyEquipo {
-  background-image: url("../assets/img/bg3(mobile).webp");
+  background-image: url("../assets/img/bg3(mobile).png");
   background-size: cover;
   background-attachment: fixed; }
 
 .bodyFavoritos {
-  background-image: url("../assets/img/bg5(mobile).webp");
+  background-image: url("../assets/img/bg5(mobile).png");
   background-size: cover;
   background-attachment: fixed; }
 
 .bgPage {
   background-color: rgba(214, 214, 214, 0.65); }
+
+.burgerMenu {
+  margin-right: 40px; }
 
 .navBarDesktop {
   display: none; }
@@ -51,14 +54,13 @@ a {
   justify-content: center; }
 
 .navMobile img {
-  width: 25%; }
+  width: 40%; }
 
 main h1 {
   text-align: center;
   margin: 10%;
   font-size: 70px; }
 
-/* form de busqueda*/
 .formIgual {
   display: flex;
   justify-content: center;
@@ -72,10 +74,12 @@ form {
   border-radius: 10px;
   padding: 25px; }
   form input {
-    width: 100%; }
-  form select {
     width: 100%;
     margin: 10px 0 10px 0; }
+  form select {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    border-radius: 10px; }
 
 .btnForm {
   display: flex;

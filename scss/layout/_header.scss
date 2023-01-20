@@ -4,6 +4,10 @@
     background-color: rgba(214, 214, 214, 0.65);
 }
 
+.burgerMenu {
+    margin-right: 40px;
+}
+
 .navBarDesktop {
     display: none;
 }
@@ -17,6 +21,6 @@
 }
 .navMobile {
     img {
-        width: 25%;
+        width: 40%;
     }
 }

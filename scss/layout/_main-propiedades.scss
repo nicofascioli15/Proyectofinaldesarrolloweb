@@ -25,7 +25,6 @@
 }
 
 .sectionPropiedades {
-
     display:flex;
     flex-direction: column;
     width: 100%;
@@ -36,15 +35,15 @@
     margin-bottom: 20px;
     position: relative;
     picture {
-        img {
+            img {
             width: 100%;   
             height: 250px;
             object-fit: cover;
             border-radius: 10px;
-        }
-        article{
-            margin-top: 20px;
-        }
+            }
+                article{
+                margin-top: 20px;
+            }
     }
     .ventaAlquiler {
         background-color: green;
