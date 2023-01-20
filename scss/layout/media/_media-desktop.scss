@@ -29,7 +29,6 @@
         background-size:cover;
         background-attachment: fixed;
     }
-
     .vistaDesktop{
     display: flex;
     justify-content: center;
@@ -37,13 +36,10 @@
     h1 {
         font-size: 70px;
     }
-        
     }
-
     .burgerMenu {
         display: none;
     }
-
     .navBarDesktop {
         display: flex;
         list-style: none;
@@ -55,14 +51,10 @@
             }
         }
     }
-
     .flexDesktop {
         display: flex;
         align-items: center;
     }
-
-
-
     .sectionPropiedades {
         display: flex;
         flex-wrap: wrap;
@@ -77,11 +69,7 @@
                     opacity: 0.4s;
                 }
             }
-
         }
-
-
-    
     .forTabletDesktop {
         display: grid;
         gap: 10px;
@@ -89,7 +77,6 @@
         grid-template-columns: repeat(5, 1fr);}
 
     .favoritosPage{
-
         display: flex;
         justify-content: center;}
 
@@ -111,7 +98,11 @@
     .flexDesktopContacto {
         display: flex;
         justify-content: center;
- align-items: center;}
+    align-items: center;}
+}
 
-
+.navMobile {
+    img {
+        width: 20%;
+    }
 }

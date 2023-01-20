@@ -53,7 +53,7 @@ a {
 .navbar {
   justify-content: center; }
 
-.navMobile img {
+.navMobile a img {
   width: 40%; }
 
 main h1 {
@@ -340,3 +340,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center; } }
+
+.navMobile img {
+  width: 20%; }
