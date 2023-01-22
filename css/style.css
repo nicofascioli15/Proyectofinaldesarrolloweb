@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -55,12 +56,14 @@ a {
     .navBarBgColor ul li a {
       color: black;
       font-weight: 400;
-      border-radius: 10px; }
+      border-radius: 10px;
+      font-family: "Raleway", sans-serif; }
 
 main h1 {
   text-align: center;
   margin: 10%;
-  font-size: 70px; }
+  font-size: 70px;
+  font-family: "Cabin", sans-serif; }
 
 .formIgual {
   display: flex;
@@ -69,6 +72,7 @@ main h1 {
   align-items: center; }
 
 form {
+  font-family: "Raleway", sans-serif;
   width: 70%;
   background-color: black;
   margin: 15% 0 15% 0;
@@ -89,14 +93,18 @@ form {
   justify-content: space-between;
   align-items: center;
   margin: 10px; }
-  .btnForm button {
+  .btnForm .btnBorrBusc {
     background-color: white;
     padding: 10px 20px 10px 20px;
     margin-top: 30px;
     border-radius: 5px; }
+    .btnForm .btnBorrBusc:hover {
+      background-color: yellow; }
+    .btnForm .btnBorrBusc a:hover {
+      color: black; }
 
-body {
-  font-family: "'Cabin', sans-serif"; }
+.mainPropiedades {
+  font-family: "Raleway", sans-serif; }
 
 .margenPaginas {
   margin: 15px; }
@@ -128,6 +136,8 @@ body {
   border-radius: 20px;
   margin-bottom: 20px;
   position: relative; }
+  .sectionPropiedades span {
+    font-family: "Cabin", sans-serif; }
   .sectionPropiedades picture img {
     width: 100%;
     height: 250px;
@@ -173,17 +183,22 @@ hr {
   justify-content: space-between;
   align-items: center;
   color: black; }
+  .addFavoritos .agregarAfavoritos:hover {
+    color: red; }
   .addFavoritos button a {
     color: white; }
 
-.filtrosMobile {
-  background-color: black;
-  border-radius: 50%;
-  padding: 20px;
-  position: fixed;
-  bottom: 70px;
-  left: 150px;
-  color: white; }
+.buscadorPaginas ul li a {
+  color: black; }
+
+h2 {
+  font-family: "Cabin", sans-serif; }
+
+h3 {
+  font-family: "Cabin", sans-serif; }
+
+h4 {
+  font-family: "Cabin", sans-serif; }
 
 textarea {
   width: 100%; }
@@ -245,6 +260,8 @@ footer {
   font-size: 22px; }
   .redesSociales a {
     color: black; }
+    .redesSociales a:hover {
+      color: yellow; }
 
 @media (min-width: 768px) {
   form {
@@ -280,8 +297,7 @@ footer {
   .filtrosMobile {
     position: fixed;
     bottom: 70px;
-    left: 340px;
-    color: white; }
+    left: 340px; }
   .onlyDesktop {
     display: none; } }
 

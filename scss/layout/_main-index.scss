@@ -5,6 +5,7 @@ main {
         text-align: center;
     margin: 10%;
     font-size: 70px;
+    font-family: $typo-principal;
     }
 }
 
@@ -13,8 +14,9 @@ main {
 }
 
 form {
+    font-family: $typo-secundario;
     width: 70%;
-    background-color: black;
+    background-color: $bgform;
     margin: 15% 0 15% 0;
     color: white;
     border-radius: 10px;
@@ -33,13 +35,7 @@ form {
 .btnForm {
     @include flex (row,space-between,center);
     margin: 10px;
-    button {
-        background-color: white;
-        padding: 10px 20px 10px 20px;
-        margin-top: 30px;
-        border-radius: 5px;
+    .btnBorrBusc {
+        @include btnpropio;
     }
 }
-
-body {
-    font-family: $typo-principal;}

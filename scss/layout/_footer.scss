@@ -6,6 +6,8 @@ footer{
 .redesSociales {
     font-size: 22px;
     a {
-        color: black;
+        color: $colorRedes;&:hover{
+            color: $hoverRedes;
+        }
     }
 }

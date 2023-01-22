@@ -1,3 +1,5 @@
+
+
 .navFlex{
     @include flex (row, space-between, center);
         a{
@@ -23,6 +25,7 @@ button{
                 color: black;
                 font-weight: 400;
                 border-radius: 10px;
+                font-family: $typo-secundario;
             }
         }
     }
