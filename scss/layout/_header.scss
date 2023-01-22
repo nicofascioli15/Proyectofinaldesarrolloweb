@@ -1,25 +1,29 @@
-
-
-.bgPage {
-    background-color: rgba(214, 214, 214, 0.65);
+.navFlex{
+    @include flex (row, space-between, center);
+        a{
+            img{
+                width: 40%;
+            }
+        }
 }
 
-.burgerMenu {
-    margin-right: 40px;
+.navbar{
+button{
+    background-color: white;
+    border: solid 1px black;
+}
 }
 
-.navBarDesktop {
-    display: none;
-}
-.navMobileFlex {
-    @include flex(row, center, center);
-}
-.navbar {
-    justify-content: center;
-}
-.navMobile {
-    a{
-    img {
-        width: 40%;
-    } }
+.navBarBgColor {
+    background-color: rgba(255, 255, 255, 0.447);
+    ul{
+        li{
+            margin: 8px;
+            a{
+                color: black;
+                font-weight: 400;
+                border-radius: 10px;
+            }
+        }
+    }
 }

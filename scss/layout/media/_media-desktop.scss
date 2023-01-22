@@ -29,44 +29,47 @@
         background-size:cover;
         background-attachment: fixed;
     }
-    .vistaDesktop{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    h1 {
-        font-size: 70px;
-    }
-    }
-    .burgerMenu {
-        display: none;
-    }
-    .navBarDesktop {
-        display: flex;
-        list-style: none;
-        gap: 20px;
-        justify-content: flex-end;
-        li{
-            a{
-                color: black;
+
+
+.navFlex{
+    a{
+    img {
+        width: 20%;
+    }}
+}
+
+.navBarBgColor {
+background-color: rgba(255, 255, 255, 0);
+    ul{
+        li {
+            a:hover {
+                background-color: black;
+                color: white;
+                border-radius: 10px;
             }
         }
+    }}
+    .vistaDesktop{
+    @include flex (row, center, center);
+    h1 {
+        font-size: 90px;
+        margin: 0px;
     }
-    .flexDesktop {
-        display: flex;
-        align-items: center;
+    section{
+        form{
+            margin:0;
+        }
     }
+    }
+
     .sectionPropiedades {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
         width: 40%;
-        gap: 10px;
             picture:hover{
                 background-color: black;        
                 border-radius: 10px;
                 transition: 0.3s;
                 img:hover {
-                    opacity: 0.4s;
+                    opacity: 0.4;
                 }
             }
         }
@@ -93,16 +96,13 @@
 
     .formContacto {
     
-        width: 50%;}
+        width: 50%;
+    form {
+        margin: 0px;
+    }}
 
     .flexDesktopContacto {
         display: flex;
         justify-content: center;
     align-items: center;}
-
-.navMobile {
-    a{
-    img {
-        width: 20%;
-    }}
-}}
+    }

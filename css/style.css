@@ -36,26 +36,26 @@ a {
   background-size: cover;
   background-attachment: fixed; }
 
-.bgPage {
-  background-color: rgba(214, 214, 214, 0.65); }
-
-.burgerMenu {
-  margin-right: 40px; }
-
-.navBarDesktop {
-  display: none; }
-
-.navMobileFlex {
+.navFlex {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center; }
+  .navFlex a img {
+    width: 40%; }
 
-.navbar {
-  justify-content: center; }
+.navbar button {
+  background-color: white;
+  border: solid 1px black; }
 
-.navMobile a img {
-  width: 40%; }
+.navBarBgColor {
+  background-color: rgba(255, 255, 255, 0.447); }
+  .navBarBgColor ul li {
+    margin: 8px; }
+    .navBarBgColor ul li a {
+      color: black;
+      font-weight: 400;
+      border-radius: 10px; }
 
 main h1 {
   text-align: center;
@@ -235,7 +235,6 @@ textarea {
   display: none; }
 
 footer {
-  background-color: rgba(211, 211, 211, 0.805);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -307,36 +306,32 @@ footer {
     background-image: url("../assets/img/bg5.jpg");
     background-size: cover;
     background-attachment: fixed; }
+  .navFlex a img {
+    width: 20%; }
+  .navBarBgColor {
+    background-color: rgba(255, 255, 255, 0); }
+    .navBarBgColor ul li a:hover {
+      background-color: black;
+      color: white;
+      border-radius: 10px; }
   .vistaDesktop {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: flex-start; }
-    .vistaDesktop h1 {
-      font-size: 70px; }
-  .burgerMenu {
-    display: none; }
-  .navBarDesktop {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    justify-content: flex-end; }
-    .navBarDesktop li a {
-      color: black; }
-  .flexDesktop {
-    display: flex;
     align-items: center; }
+    .vistaDesktop h1 {
+      font-size: 90px;
+      margin: 0px; }
+    .vistaDesktop section form {
+      margin: 0; }
   .sectionPropiedades {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 40%;
-    gap: 10px; }
+    width: 40%; }
     .sectionPropiedades picture:hover {
       background-color: black;
       border-radius: 10px;
       transition: 0.3s; }
       .sectionPropiedades picture:hover img:hover {
-        opacity: 0.4s; }
+        opacity: 0.4; }
   .forTabletDesktop {
     display: grid;
     gap: 10px;
@@ -355,9 +350,9 @@ footer {
     display: none; }
   .formContacto {
     width: 50%; }
+    .formContacto form {
+      margin: 0px; }
   .flexDesktopContacto {
     display: flex;
     justify-content: center;
-    align-items: center; }
-  .navMobile a img {
-    width: 20%; } }
+    align-items: center; } }
