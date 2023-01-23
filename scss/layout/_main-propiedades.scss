@@ -83,12 +83,10 @@ hr {
 
 
 
+
 .addFavoritos {
     @include flex (row,space-between,center);
     color: black;
-    .agregarAfavoritos:hover {
-        color: red;
-    }
     button {
         a {
             color: white;

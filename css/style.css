@@ -183,8 +183,6 @@ hr {
   justify-content: space-between;
   align-items: center;
   color: black; }
-  .addFavoritos .agregarAfavoritos:hover {
-    color: red; }
   .addFavoritos button a {
     color: white; }
 
@@ -356,6 +354,8 @@ footer {
   .favoritosPage {
     display: flex;
     justify-content: center; }
+  .agregarAfavoritos:hover {
+    color: red; }
   .sectionTodasPropiedades {
     grid-column: span 3; }
   .onlyDesktop {
